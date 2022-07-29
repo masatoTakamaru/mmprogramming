@@ -1,0 +1,271 @@
+/*body*/
+
+body {
+    font-family: 'Hiragino Sans','ヒラギノ角ゴシック','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic''ＭＳ ゴシック','Helvetica Neue','Helvetica','Arial',sans-serif;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+/*header*/
+
+.blog-header {
+    background: url(bg-image.webp) no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.blog-name-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-name {
+    padding-top: 30px;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+.blog-name:visited {
+    color: darkblue;
+}
+
+.blog-description-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-description {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*container*/
+@media screen and (min-width:1080px) {
+    #container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .index-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 688px;
+        margin: 0 20px 40px 20px;
+    }
+
+    .content-wrapper {
+        max-width: 688px;
+        margin: 0 20px 40px 20px;
+    }
+
+    #sidebar {
+        width: 300px;
+        background-color: rgb(179, 216, 248);
+        border-radius: 8px;
+        padding: 16px;
+    }    
+}
+
+/*main*/
+
+main h1 {
+    font-size: 24px;
+}
+
+.index-wrapper {
+    margin-top: 30px;
+}
+
+.index-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 688px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-card-wrapper {
+    width: 210px;
+    padding: 0 6px 24px 6px;
+}
+
+.post-thumb {
+    display: flex;
+    justify-content: center;
+}
+
+.post-title:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.post-title a {
+    text-decoration: none;
+}
+
+.post-header {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    word-break: break-all;
+    font-weight: 700;
+    color: black;
+}
+
+.post-wrapper a {
+    text-decoration: none;
+}
+
+.post-header:visited {
+    color: black;
+}
+
+.copyright {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.wp-post-image:not(.size-75x75) {
+    border-radius: 16px;
+}
+
+.size-75x75 {
+    border-radius: 8px;
+}
+
+/*ペジネーション*/
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.page-numbers:not(.dots) {
+    background-color: lightskyblue;
+    border-radius: 6px;
+    padding: 8px 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.page-numbers:not(.dots):visited {
+    background-color: lightskyblue;
+    border-radius: 6px;
+    color: white;
+}
+
+.page-numbers.current {
+    background-color: cornflowerblue;
+}
+
+/*sidebar*/
+
+#sidebar {
+    background-color: rgb(179, 216, 248);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#sidebar h2 {
+    font-size: 16px;
+    color: #494949;
+}
+
+#sidebar a {
+    color: #494949;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#sidebar a:visited {
+    color: #494949;
+}
+
+
+.wp-block-categories {
+    padding-left: 0px;
+}
+
+.cat-item {
+    list-style: none;
+    color: #494949;
+    font-weight: 700;
+    margin: 14px 0px;
+}
+
+.cat-item a {
+    color: #494949;
+    text-decoration: none;
+}
+
+.cat-item a:visited {
+    color: #494949;
+    text-decoration: none;
+}
+
+.rpwwt-widget a {
+    color: #494949;
+    font-weight: 700;   
+    text-decoration: none;
+}
+
+/*single*/
+
+article div h2 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0.25em 0.5em;
+    color: #494949;
+    background: transparent;
+    border-left: solid 5px #7db4e6;
+    font-size: 16px;
+}
+
+.content-wrapper {
+    margin: 0 20px 40px 20px;
+    margin-left: 20px;
+}
+
+.content {
+    line-height: 1.75rem;
+    overflow-wrap: break-word;
+}
+
+.wp-block-code code {
+    background-color: rgb(52, 53, 46);
+    color: white;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#toc_container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-block-image figure {
+    border-radius: 8px;
+}
+
+.content-time {
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+}
+
+/*code*/
+
+.hcb_wrap .hcb-clipboard {
+    right:8px;
+}
+
+.hcb_wrap.hcb_wrap pre {
+    border-radius: 8px;
+}
+
